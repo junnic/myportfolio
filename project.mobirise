@@ -3,7 +3,7 @@
     "currentPage": "index.html",
     "versionFirst": "3.5.3",
     "uniqCompNum": 8,
-    "versionPublish": "4.1.7",
+    "versionPublish": "3.12.1",
     "name": "NewSite-09-08_2252",
     "theme": {
       "name": "default",
@@ -54,14 +54,14 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff",
+            "transparent": true,
             "sticky": true,
             "collapsed": false,
-            "transparent": true,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
           },
           "logo": {
             "image": {
@@ -100,23 +100,23 @@
           },
           "_anchor": "header1-0",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "right",
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/graphic-designer-working-at-desk-with-wacom-intuos-tablet-by-rockin-monkey-designs-of-san-antonio-2000x1325-39.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#4c6972",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
             "overlay": true,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
           },
           "title": "Welcome To My Portfolio",
           "text": "I'm Cheah Eng Guan, is a graphic designer.",
@@ -142,37 +142,37 @@
               "font-size": "18px"
             }
           },
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": false,
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1348x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": true,
-            "overlay": true,
-            "overlayColor": "#3a3a3a",
-            "overlayOpacity": "0.4"
-          },
-          "title": "SUMMARY",
-          "text": "<p>I am a multimedia graphic designer\n who is responsible to each project that I handled. I was graduated from In-house Mutimedia College. I have creative design imagination and &nbsp;adaptable to latest trend of design. I\n am seeking employment with a &nbsp;company where I can use my talents &nbsp;and skills as part in company growth.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "meta": "By John Smith posted July 30, 2015",
           "_name": "content5",
-          "_anchor": "content5-2"
+          "_anchor": "content5-2",
+          "_params": {
+            "showCaption": "noCaption",
+            "paddingTop": "3",
+            "paddingBottom": "3",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1348x1080.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#3a3a3a",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "SUMMARY",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>I am a multimedia graphic designer\n who is responsible to each project that I handled. I was graduated from In-house Mutimedia College. I have creative design imagination and &nbsp;adaptable to latest trend of design. I\n am seeking employment with a &nbsp;company where I can use my talents &nbsp;and skills as part in company growth.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         },
         {
           "_name": "features1",
@@ -196,27 +196,27 @@
           },
           "_anchor": "features1-0",
           "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": true,
-            "showCaptions": true,
-            "showButtons": false,
             "paddingTop": "0",
             "paddingBottom": "1",
-            "columns": "4",
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#313131",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showHeader": false,
+            "showSubheader": false,
+            "columns": "4",
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false
           },
           "headerAlign": "left",
           "header": "DROP-DEAD EASY WEBSITE MAKER",
@@ -373,26 +373,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-1",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
             "showCaption": true,
-            "showText": false,
-            "showButton": false,
             "paddingTop": "1",
             "paddingBottom": "0",
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#ffffff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "MY ARTWORK",
           "meta": "By John Smith posted July 30, 2015",
@@ -405,7 +405,6 @@
           "_name": "slider2",
           "_params": {
             "autoplay": true,
-            "showBullets": true,
             "slides": [
               {
                 "active": false,
@@ -824,7 +823,8 @@
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
-            ]
+            ],
+            "showBullets": true
           },
           "_anchor": "slider2-0",
           "articleLayout": true
@@ -848,26 +848,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-0",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
             "showCaption": true,
-            "showText": true,
-            "showButton": false,
             "paddingTop": "2",
             "paddingBottom": "0",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#181818",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "<span style=\"line-height: 1.5em;\">PHOTOGRAPHY</span><br>",
           "meta": "By John Smith posted July 30, 2015",
@@ -877,13 +877,8 @@
         {
           "_name": "gallery1",
           "_params": {
-            "fullWidth": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "noGutter": true,
-            "showText": false,
-            "showBullets": true,
-            "bgColor": "#1a1a1a",
             "images": [
               {
                 "caption": "Type caption here",
@@ -933,7 +928,12 @@
                 "image": "@PROJECT_PATH@/assets/images/9-2000x1413-57.jpg",
                 "active": true
               }
-            ]
+            ],
+            "showText": false,
+            "bgColor": "#1a1a1a",
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true
           },
           "_anchor": "gallery1-0",
           "articleLayout": false
@@ -953,26 +953,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-2",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
             "showCaption": true,
-            "showText": false,
-            "showButton": false,
             "paddingTop": "2",
             "paddingBottom": "1",
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "CONTACT ME",
           "meta": "By John Smith posted July 30, 2015",
@@ -993,18 +993,29 @@
         },
         {
           "_name": "contacts3",
+          "_styles": {
+            "P": {
+              "font-size": "14px"
+            },
+            "UL": {
+              "font-size": "14px"
+            },
+            "B": {
+              "font-size": "16px"
+            }
+          },
           "_anchor": "contacts3-0",
           "_params": {
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
           "text1": "<b>FACEBOOK</b> <b>NAME</b><br>Eng Guan Junnic<br><br><b>CONTACTS</b><br>Email: junniccheah@hotmail.com<br>Phone: +6016-389 0507<br>",
           "text2": "<p class=\"mbr-contacts__text\"><b>ADDRESS</b></p><ul class=\"mbr-contacts__list\"><li>Blok 5, 5M-1, Rumah Pangsa Sri Pulau Pinang, Batu 3 1/2, Jalan Cheras, 56100, Kuala Lumpur, Malaysia</li></ul>",
@@ -1036,18 +1047,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">CONTACT US</a>",
-          "_styles": {
-            "P": {
-              "font-size": "14px"
-            },
-            "UL": {
-              "font-size": "14px"
-            },
-            "B": {
-              "font-size": "16px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">CONTACT US</a>"
         },
         {
           "_name": "footer1",
@@ -1061,41 +1061,41 @@
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#444444",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
           "text": "Copyright (c) 2017 Eng Guan Portfolio"
         },
         {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/engguan.junnic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/engguan95/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/junniccheah/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a>     ",
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons2",
-          "_anchor": "social-buttons2-7",
           "_styles": {
             ".mbr-header__text": {
               "color": "#ffffff"
             }
-          }
+          },
+          "_anchor": "social-buttons2-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#3c3c3c",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "FOLLOW US",
+          "icons": " <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/engguan.junnic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/engguan95/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/junniccheah/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a>     "
         }
       ]
     }

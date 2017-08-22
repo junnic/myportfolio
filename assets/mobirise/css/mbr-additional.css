@@ -1,0 +1,107 @@
+@import url(../../../https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+
+
+
+
+
+
+#menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#menu-0 .mbr-navbar__items a {
+  font-family: 'Roboto', sans-serif;
+}
+#menu-0 .mbr-brand__name a {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+#header1-0 H1 {
+  color: #6edcea;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+}
+#header1-0 P {
+  font-size: 24px;
+}
+#content5-2 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+#content5-2 .mbr-header .mbr-header__subtext {
+  text-align: center;
+  color: #fff;
+}
+#content5-2 .mbr-article {
+  color: #fff;
+}
+#content5-2 .mbr-article P {
+  text-align: center;
+  font-size: 18px;
+}
+#features1-0 .mbr-section__col .mbr-header__text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #68bee1;
+}
+#features1-0 P {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+#features1-0 B {
+  font-size: 21px;
+}
+#msg-box3-1 .mbr-header .mbr-header__text {
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+}
+#msg-box3-1 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-0 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+}
+#msg-box3-0 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-0 .mbr-header .mbr-header__text SPAN {
+  color: #cccccc;
+}
+#msg-box3-2 .mbr-header .mbr-header__text {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+}
+#msg-box3-2 .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#contacts3-0 P {
+  font-size: 14px;
+}
+#contacts3-0 UL {
+  font-size: 14px;
+}
+#contacts3-0 B {
+  font-size: 16px;
+}
+#footer1-0 P {
+  text-align: center;
+}
+#social-buttons2-7 .mbr-header__text {
+  color: #ffffff;
+}
